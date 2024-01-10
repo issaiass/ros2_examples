@@ -21,7 +21,9 @@ setup(
     entry_points={
         'console_scripts': [
           'publisher = py_pubsub.publisher_member_function:main',
-          'subscriber = py_pubsub.subscriber_member_function:main'          
+          'subscriber = py_pubsub.subscriber_member_function:main',
+          'custom_publisher = py_pubsub.custom_publisher:main',
+          'custom_subscriber = py_pubsub.custom_subscriber:main',
         ],
     },
 )

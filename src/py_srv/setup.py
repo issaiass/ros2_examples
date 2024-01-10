@@ -21,7 +21,9 @@ setup(
     entry_points={
         'console_scripts': [
             'server_member_function = py_srv.server_member_function:main',
-            'client_member_function = py_srv.client_member_function:main',            
+            'client_member_function = py_srv.client_member_function:main',
+            'custom_server = py_srv.add_three_ints_server:main',
+            'custom_client = py_srv.add_three_ints_client:main',
         ],
     },
 )
